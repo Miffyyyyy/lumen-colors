@@ -1,5 +1,10 @@
 # Lumen - Discord Color Role Bot
 
+## 🚀 Invite Link
+
+```bash
+   https://discord.com/oauth2/authorize?client_id=1392550741217906789&permissions=268528880&integration_type=0&scope=bot+applications.commands 
+   ```
 A professional Discord bot that provides a beautiful color role system with aesthetic color shades and reaction-based role assignment.
 
 ## ✨ Features
