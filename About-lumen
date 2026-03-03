@@ -1,0 +1,59 @@
+================================================================================
+                         ABOUT LUMEN COLORS
+================================================================================
+
+--------------------------------------------------------------------------------
+WHO MADE LUMEN?
+--------------------------------------------------------------------------------
+
+Lumen Colors was created by aizy_lazy, a Discord user and developer who got tired
+of the same problem: setting up color roles in servers was a hassle.
+
+Whether it was manually creating dozens of roles, copying role IDs, or keeping
+reaction menus in sync, managing color roles was time-consuming and error-prone.
+So he built Lumen—a bot that does the heavy lifting and lets server members pick
+their color with a single reaction.
+
+--------------------------------------------------------------------------------
+WHY LUMEN EXISTS
+--------------------------------------------------------------------------------
+
+  • To make color roles easy
+    No more creating every shade by hand or pasting role IDs. Run a short setup
+    wizard, and Lumen creates the roles and reaction menus for you.
+
+  • To stay flexible
+    You choose the channel, how many shades (Basic, Standard, or Full), optional
+    role restrictions (required role / restricted role), and whether to use
+    custom banners or none. You can change most of this later in the Dashboard.
+
+  • To keep things simple for users
+    Server members just react with an emoji to get or change their color role.
+    One reaction per family; no complicated commands.
+
+  • To give server staff control
+    Rename or recolor roles in Server Settings → Roles anytime; Lumen keeps
+    working. Use the Dashboard to edit emojis, banners, embed colors, and who
+    can use color roles.
+
+--------------------------------------------------------------------------------
+WHAT'S IN A NAME?
+--------------------------------------------------------------------------------
+
+"Lumen" means light—and color is all about light. The bot helps servers shine
+with simple, customizable color roles.
+
+--------------------------------------------------------------------------------
+CONTACT & CREDITS
+--------------------------------------------------------------------------------
+
+  Creator:  aizy_lazy (Discord)
+  Contact:  Discord @aizy_lazy  |  Email: entertainmenthd23@gmail.com
+  Support:  https://discord.gg/jaq6MxpdtD
+
+  Lumen is free to use. For terms of use and privacy, see TERMS_OF_SERVICE.txt
+  and PRIVACY_POLICY.txt.
+
+================================================================================
+END OF ABOUT
+================================================================================
