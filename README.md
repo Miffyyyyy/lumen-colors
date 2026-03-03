@@ -143,10 +143,9 @@ Server configurations are stored in `serverConfigs.json` and include:
 ## 🤝 Support
 
 If you encounter any issues:
-1. Check the console for error messages
-2. Verify bot permissions
-3. Ensure Node.js version is 16.0.0+
-4. Check that all dependencies are installed
+join support server https://discord.gg/jaq6MxpdtD)
+
+
 
 ## 📝 License
 
