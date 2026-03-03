@@ -122,10 +122,6 @@ To add new color families or shades, edit the `colorFamilies` object in `config.
 }
 ```
 
-### Adding New Commands
-1. Create a new file in the `commands/` directory
-2. Follow the existing command structure
-3. Run `node deploy-commands.js` to register the new command
 
 ## 🔒 Security Features
 
