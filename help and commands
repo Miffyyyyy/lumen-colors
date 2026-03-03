@@ -1,0 +1,149 @@
+================================================================================
+                    LUMEN BOT — HELP & COMMANDS
+================================================================================
+
+--------------------------------------------------------------------------------
+QUICK START
+--------------------------------------------------------------------------------
+
+  1. Invite Lumen to your server (you need "Manage Server" or similar).
+  2. Run ,setup (or /setup) and choose the channel where color menus will appear.
+  3. Follow the setup wizard:
+     • Color set: Basic (~27), Standard (~54), or Full (~108) shades
+     • Role restrictions (optional): required role, restricted role, or skip
+     • Banners: custom image per family, default banners, or no banners
+  4. Confirm and create. Lumen will create the roles and post the reaction menus.
+  5. Use ,dashboard (or /dashboard) anytime to edit emojis, banners, embed
+     colors, and role restrictions.
+
+--------------------------------------------------------------------------------
+COMMANDS (EVERYONE)
+--------------------------------------------------------------------------------
+
+  All of these work as SLASH COMMANDS (e.g. /setup) and as PREFIX COMMANDS
+  with the comma prefix (e.g. ,setup). Default prefix: ,
+
+  /setup  (or ,setup)
+    • Description: Set up the color role system for this server.
+    • Options: channel (required) — the channel where color role messages go.
+    • Permissions: You need "Manage Server" (Manage Guild) to run setup.
+    • What it does: Starts a wizard. You pick channel, color set size (Basic/
+      Standard/Full), optional required/restricted roles, and banners. Then
+      Lumen creates the roles and posts one message per color family. Each
+      message has an optional banner and a list of shades; users react to get
+      that color role.
+    • If the server already has a setup: Use /delete (or ,delete) first, then
+      run setup again.
+
+  /dashboard  (or ,dashboard)
+    • Description: Open the Lumen settings dashboard for this server.
+    • Permissions: Manage Server (Manage Guild).
+    • What it does: Opens a menu where you can:
+      – Role restrictions: Set or clear the "required role" (users must have it
+        to use color roles) and "restricted role" (users with it cannot use
+        color roles). Use dropdowns or paste role IDs.
+      – Emojis: Change the reaction emoji for each color shade (unicode or
+        server custom emoji). Pick a family, then a shade, then send the new
+        emoji in the channel.
+      – Banners: Add, change, or remove the banner image for each color family.
+        Send an image, GIF, or image link in the channel when prompted.
+      – Embed color: Set the sidebar (accent) color of each color family’s
+        embed. Enter a hex color (e.g. #4ECDC4 or 4ECDC4). Leave empty to reset.
+      – Close: Dismiss the dashboard message.
+    • Tip: Use the "Back" options to change your mind without closing.
+
+  /delete  (or ,delete)
+    • Description: Delete the color role setup from this server.
+    • Permissions: Manage Server (Manage Guild).
+    • What it does: Asks for confirmation. You can choose to remove only the
+      config and menu messages, or also delete all color roles created by
+      Lumen. If the bot finds orphaned color-role messages (no config), it can
+      offer to clean those up too.
+
+  /help  (or ,help)
+    • Description: Show all bot commands and details.
+    • What it does: Sends you the same help overview (in an embed), including
+      quick start, command list, how color roles work, dashboard features, and
+      tips. You can run it in the server or in DMs with the bot.
+
+--------------------------------------------------------------------------------
+HOW COLOR ROLES WORK
+--------------------------------------------------------------------------------
+
+  • Lumen posts one message per color family (e.g. Red, Pink, Blue). Each
+    message can have an optional banner image and an embed listing the shades
+    (e.g. Blood Red, Crimson, Cherry) with a reaction emoji next to each.
+
+  • Users react with the emoji for the shade they want. The bot adds that
+    color role to them. Only one shade per family at a time—reacting to
+    another shade in the same family replaces the previous role.
+
+  • If you set a "required role": only users who have that role can get
+    color roles; others get a DM explaining they need the role.
+
+  • If you set a "restricted role": users who have that role cannot get
+    color roles; they get a DM explaining why.
+
+--------------------------------------------------------------------------------
+DASHBOARD FEATURES (SUMMARY)
+--------------------------------------------------------------------------------
+
+  • Role restrictions — Who must have a role to use colors / who is blocked.
+  • Emojis — Change the reaction emoji for each shade (unicode or server emoji).
+  • Banners — Add, change, or remove the image per color family (upload or link).
+  • Embed color — Set the sidebar color per family (hex, e.g. #4ECDC4).
+
+--------------------------------------------------------------------------------
+TIPS
+--------------------------------------------------------------------------------
+
+  • Rename or recolor roles in Server Settings → Roles anytime; Lumen keeps
+    working. The bot matches roles by ID, not by name.
+
+  • In setup or dashboard, if a role doesn’t appear in the list, paste its
+    role ID in the channel (right‑click role → Copy ID, if Developer Mode is on).
+
+  • Use "Back" in setup and dashboard to change your choice without cancelling.
+
+  • For emojis, use only unicode or emojis from the same server. Emojis from
+    other servers (e.g. Nitro) may not display correctly for everyone.
+
+--------------------------------------------------------------------------------
+BOT OWNER / DEVELOPER COMMANDS
+--------------------------------------------------------------------------------
+
+  These prefix-only commands are for the bot owner and do not respond to
+  other users. They are not slash commands.
+
+  ,svrs
+    Lists all servers the bot is in (name, ID, member count, owner). Owner-only.
+
+  ,unused-servers
+    Shows how many servers have no Lumen setup; optionally makes the bot leave
+    those servers after you reply "yes". Owner-only, one-time cleanup style.
+
+--------------------------------------------------------------------------------
+PERMISSIONS THE BOT NEEDS
+--------------------------------------------------------------------------------
+
+  • Manage Roles — to create and assign color roles (and place them correctly
+    in the role list if possible).
+  • Send Messages, Embed Links, Add Reactions — in the channel where color
+    menus are posted, so it can send embeds and add reaction buttons.
+  • Read Message History — to handle reactions and dashboard flows.
+
+  When you run setup, Lumen will tell you if it’s missing any of these in the
+  chosen channel.
+
+--------------------------------------------------------------------------------
+NEED MORE?
+--------------------------------------------------------------------------------
+
+  Run /help or ,help in the server or in DMs for the in-Discord help embed.
+  For terms and privacy: see TERMS_OF_SERVICE.txt and PRIVACY_POLICY.txt.
+  Contact: Discord @aizy_lazy  |  Email: entertainmenthd23@gmail.com
+  Support server: https://discord.gg/jaq6MxpdtD
+
+================================================================================
+END OF HELP & COMMANDS
+================================================================================
