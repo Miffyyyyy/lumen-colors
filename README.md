@@ -17,37 +17,8 @@ A professional Discord bot that provides a beautiful color role system with aest
 - **🛡️ Professional**: Comprehensive error handling and permission checks
 - **🎯 Modular Design**: Clean, organized code structure
 
-## 🚀 Quick Start
 
-### 1. Prerequisites
-- Node.js 16.0.0 or higher
-- A Discord bot token
-- Discord.js v14
-
-### 2. Installation
-
-1. **Clone or download this repository**
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Configure the bot:**
-   - Edit `config.json`
-   - Replace `YOUR_BOT_TOKEN_HERE` with your bot token
-   - Replace `YOUR_CLIENT_ID_HERE` with your bot's client ID
-
-4. **Deploy slash commands:**
-   ```bash
-   node deploy-commands.js
-   ```
-
-5. **Start the bot:**
-   ```bash
-   npm start
-   ```
-
-### 3. Bot Setup
+### Bot Setup
 
 1. **Invite the bot to your server** with these permissions:
    - Manage Roles
