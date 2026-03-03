@@ -80,7 +80,6 @@ The bot requires these permissions:
 ### Role Settings
 - All color roles have **no permissions** (clean slate)
 - Roles are **not hoisted** (don't appear separately)
-- Roles are **not mentionable**
 - Users can only have **one color role at a time**
 
 ## 📁 File Structure
@@ -143,7 +142,7 @@ Server configurations are stored in `serverConfigs.json` and include:
 ## 🤝 Support
 
 If you encounter any issues:
-join support server https://discord.gg/jaq6MxpdtD)
+join support server https://discord.gg/jaq6MxpdtD
 
 
 
