@@ -1,0 +1,167 @@
+================================================================================
+                    LUMEN BOT - PRIVACY POLICY
+================================================================================
+
+Last updated: March 3, 2026
+
+--------------------------------------------------------------------------------
+1. INTRODUCTION
+--------------------------------------------------------------------------------
+
+Lumen Colors ("we," "us," "our") operates the Lumen Discord bot ("Bot"). This
+Privacy Policy explains what data the Bot collects, how we use it, and your
+rights regarding that data. By using the Bot, you agree to this policy.
+
+--------------------------------------------------------------------------------
+2. DATA WE COLLECT
+--------------------------------------------------------------------------------
+
+The Bot stores the following data to provide its services:
+
+  (a) Server (guild) configuration
+      When a server uses the Bot (e.g., after running the setup command), we
+      store configuration data associated with that server's Discord guild ID,
+      including:
+      - Channel ID where color-role messages are posted
+      - Color set and role configuration (e.g., role names, emoji associations)
+      - Message IDs and channel IDs of the Bot's embed messages
+      - Optional: required role ID and restricted role ID (if the server
+        administrator configures role restrictions)
+      - Optional: custom banner image URLs per color family
+      - The Discord user ID of the user who ran the setup command ("setupBy")
+        for reference only
+
+  (b) Guild addition records
+      When the Bot is added to a server, we store the Discord guild ID and the
+      Discord user ID of the user who added the Bot (the "inviter," typically
+      the person who received the welcome DM). We use this solely to send that
+      user a one-time welcome message with setup instructions and, in the
+      future, to optionally notify them of important Bot updates (e.g., new
+      features or critical changes). We do not sell or share this information
+      with third parties for marketing or advertising.
+
+  (c) Data we do not collect
+      We do not collect or store:
+      - Lists of all users who use color roles in a server
+      - Message content from users (except when you explicitly send a role ID,
+        emoji, or image/link during setup or dashboard flows; that data is used
+        only to apply your chosen settings and is not used for profiling or
+        advertising)
+      - Any data for the purpose of advertising, selling to third parties, or
+        building user profiles beyond what is necessary to operate the Bot
+
+--------------------------------------------------------------------------------
+3. HOW WE USE THE DATA
+--------------------------------------------------------------------------------
+
+  - To operate the Bot: We use server configuration and message/role data to
+    display color-role menus, assign roles when users react, and allow
+    administrators to edit settings via the dashboard.
+
+  - Welcome and instructions: When you add the Bot to a server, we send a
+    one-time direct message to the inviter with setup instructions.
+
+  - Permission messages: If a user tries to use a color role but does not meet
+    the server's requirements (e.g., missing required role or has restricted
+    role), the Bot may send that user a one-time DM explaining why the action
+    was not allowed.
+
+  - Updates (optional): We may use the stored inviter user IDs to send
+    important Bot update notifications (e.g., new features or breaking changes).
+    We will not use this for promotional or marketing spam.
+
+  - Legal and safety: We may retain or disclose data if required by law, to
+    enforce our Terms of Service, or to protect the rights and safety of users
+    or the public.
+
+--------------------------------------------------------------------------------
+4. DATA STORAGE AND RETENTION
+--------------------------------------------------------------------------------
+
+  - Data is stored in files on the Operator's infrastructure (e.g.,
+    serverConfigs.json and guildAdditions.json). We do not use third-party
+    analytics or advertising services that track users across the internet.
+
+  - Server configuration is retained for as long as the Bot remains in the
+    server and is used. If the Bot is removed from a server, we may remove that
+    server's configuration data (e.g., when we detect the Bot is no longer in
+    the guild).
+
+  - Guild addition records (guild ID and inviter user ID) may be retained to
+    allow future update notifications. If you are an inviter and do not wish to
+    receive update messages, you may contact us at Discord: @aizy_lazy or Email: entertainmenthd23@gmail.com to request
+    removal of your user ID from our records.
+
+--------------------------------------------------------------------------------
+5. DISCORD AND THIRD PARTIES
+--------------------------------------------------------------------------------
+
+  - The Bot operates on Discord. Data we collect is processed through Discord's
+    API and is subject to Discord's Privacy Policy and Terms of Service. We do
+    not control Discord's practices.
+
+  - We do not sell, rent, or trade your data to third parties for advertising
+    or marketing. We do not use your data to build advertising profiles.
+
+--------------------------------------------------------------------------------
+6. DATA SECURITY
+--------------------------------------------------------------------------------
+
+We take reasonable measures to protect the data we store (e.g., access
+controls and secure hosting). No method of transmission or storage is 100%
+secure; we cannot guarantee absolute security.
+
+--------------------------------------------------------------------------------
+7. YOUR RIGHTS
+--------------------------------------------------------------------------------
+
+Depending on your jurisdiction, you may have the right to:
+
+  - Access the data we hold about you (e.g., your Discord user ID if stored as
+    an inviter or setupBy);
+  - Request correction or deletion of your data;
+  - Object to or restrict certain processing;
+  - Withdraw consent where processing is based on consent.
+
+To exercise these rights or to ask questions about your data, contact us at
+Discord: @aizy_lazy or Email: entertainmenthd23@gmail.com. We will respond within a reasonable time. If you are in the
+European Economic Area or the United Kingdom, you may also have the right to
+lodge a complaint with a supervisory authority.
+
+--------------------------------------------------------------------------------
+8. CHILDREN
+--------------------------------------------------------------------------------
+
+The Bot is not directed at children under 13. We do not knowingly collect
+personal data from children under 13. If you believe we have collected such
+data, please contact us at Discord: @aizy_lazy or Email: entertainmenthd23@gmail.com and we will take steps to delete it.
+
+--------------------------------------------------------------------------------
+9. CHANGES TO THIS POLICY
+--------------------------------------------------------------------------------
+
+We may update this Privacy Policy from time to time. The "Last updated" date
+at the top will be revised when we do. Continued use of the Bot after changes
+constitutes acceptance of the updated policy. We encourage you to review this
+policy periodically.
+
+--------------------------------------------------------------------------------
+10. GOVERNING LAW
+--------------------------------------------------------------------------------
+
+This Privacy Policy shall be governed by the laws of the United States, to
+the extent consistent with applicable data protection laws.
+
+--------------------------------------------------------------------------------
+11. CONTACT
+--------------------------------------------------------------------------------
+
+For privacy-related questions, requests, or complaints, contact:
+
+  Discord: @aizy_lazy
+  Email: entertainmenthd23@gmail.com
+  Support server: https://discord.gg/jaq6MxpdtD
+
+================================================================================
+END OF PRIVACY POLICY
+================================================================================
